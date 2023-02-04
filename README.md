@@ -1,5 +1,4 @@
-![linters](https://github.com/dronezzzko/easyshutdown/actions/workflows/linters.yml/badge.svg)
-
+[![Go](https://github.com/dronezzzko/easyshutdown/actions/workflows/linters.yml/badge.svg)](https://github.com/dronezzzko/easyshutdown/actions/workflows/linters.yml)
 # easyshutdown
 Gracefully shutdown your Go services in just one line. 
 
