@@ -44,3 +44,5 @@ easyshutdown 2023/02/04 19:25:05 Shutting down HTTP/HTTPS server
 2023/02/04 19:25:08 HTTP server stopped: http: Server closed
 exit status 1
 ```
+
+Also see ``options.go`` for all available options.
