@@ -1,2 +1,2 @@
-# easyshutdown-
-Gracefully shutdown your Go services in just on line
+# easyshutdown
+Gracefully shutdown your Go services in just one line
