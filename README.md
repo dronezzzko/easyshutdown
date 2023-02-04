@@ -3,6 +3,12 @@
 # easyshutdown
 Gracefully shutdown your Go services in just one line. 
 
+This package supports: 
+- HTTP and HTTPS servers
+- GRPC server
+- OpenTelemetry tracers
+- And more
+
 ## Usage
 ### Simple example
 ```go
@@ -47,4 +53,4 @@ easyshutdown 2023/02/04 19:25:05 Shutting down HTTP/HTTPS server
 exit status 1
 ```
 
-Also see ``options.go`` for all available options.
+Also see ``options.go`` for all available options and supported services.
