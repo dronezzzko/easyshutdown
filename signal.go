@@ -20,13 +20,13 @@ func signals() <-chan struct{} {
 	close(initOnce)
 
 	stop := make(chan struct{})
-	c := make(chan os.Signal, 2)
-	signal.Notify(c, shutdownSignals...)
+	signalChan := make(chan os.Signal, 2)
+	signal.Notify(signalChan, shutdownSignals...)
 
 	go func() {
-		<-c
+		<-signalChan
 		close(stop)
-		<-c
+		<-signalChan
 		os.Exit(1) // Two exit signals in a row? Exit directly.
 	}()
 

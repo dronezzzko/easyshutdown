@@ -1,0 +1,19 @@
+linters:
+  enable-all: true
+  disable:
+    - nosnakecase #deprecated
+    - structcheck #deprecated
+    - interfacer #deprecated
+    - ifshort #deprecated
+    - scopelint #deprecated
+    - varcheck #deprecated
+    - golint #deprecated
+    - maligned #deprecated
+    - deadcode #deprecated
+    - exhaustivestruct #deprecated
+    - exhaustruct
+    - rowserrcheck
+    - sqlclosecheck
+    - wastedassign
+    - gomnd
+    - gochecknoglobals
