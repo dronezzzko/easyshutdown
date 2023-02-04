@@ -1,3 +1,5 @@
+![linters](https://github.com/dronezzzko/easyshutdown/actions/workflows/linters/badge.svg)
+
 # easyshutdown
 Gracefully shutdown your Go services in just one line. 
 
