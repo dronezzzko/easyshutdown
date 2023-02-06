@@ -53,4 +53,4 @@ easyshutdown 2023/02/04 19:25:05 Shutting down HTTP/HTTPS server
 exit status 1
 ```
 
-Also see ``options.go`` for all available options and supported services.
+Also see [options.go](options.go) for all available options and supported services.
